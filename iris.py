@@ -40,7 +40,10 @@ def predict():
 
 
     # 5.1	3.5	1.4	0.2	
-
+@app.route('/login')
+def login():
+    """ Login logic"""
+    return render_template('login.html')
 
 
 if __name__ == "__main__":
